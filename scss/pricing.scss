@@ -1,0 +1,200 @@
+#pricing {
+  display: flex;
+  flex-direction: column;
+  background: #6696E2;
+  height: 883px;
+
+.pricing-title {
+
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+ img {
+   display: block;
+   margin: 22px auto 27px auto;
+  }
+  p {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+}
+
+
+.pricing-sections {
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+
+.first {
+  margin: 20px;
+
+.basic {
+  display: flex;
+  justify-content: center;
+  height: 59px;
+  width: 343px;
+  background: url('../assets/card_header_u266@2x.png');
+  border-radius: 5px 5px 0px 0px;
+
+  h3 {
+      font-size: 20px;
+      color: #FFFFFF;
+      margin: auto;
+  }
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 343px;
+  background: url('../assets/card_price_u268.png');
+
+
+p {
+      font-size: 84px;
+      color: #FFFFFF;
+      text-align: center;
+
+      span {
+        font-size: 32px;
+        text-align: center;
+      }
+  }
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  height: 51px;
+  width: 343px;
+  background: url('../assets/card_price_u268.png');
+
+
+p {
+      font-size: 14px;
+      color: #FFFFFF;
+      opacity: 50%;
+      text-align: center;
+      margin: auto;
+}
+}
+
+.green {
+  height: 6px;
+  width: 343px;
+  background: #41D395;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 343px;
+  background: url('../assets/pricing_feature_u13.png');
+
+  p {
+    font-size: 14px;
+    color: #86878B;
+    margin: auto;
+    text-align: center;
+  }
+}
+}
+
+.middle {
+  margin: 20px;
+
+.basic {
+  display: flex;
+  justify-content: center;
+  height: 59px;
+  width: 343px;
+  background: url('../assets/card_header_u266@2x.png');
+  border-radius: 5px 5px 0px 0px;
+
+  h3 {
+      font-size: 20px;
+      color: #FFFFFF;
+      margin: auto;
+  }
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 343px;
+  background: url('../assets/card_price_u268.png');
+
+
+p {
+      font-size: 84px;
+      color: #FFFFFF;
+      text-align: center;
+
+      span {
+        font-size: 32px;
+        text-align: center;
+      }
+  }
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  height: 51px;
+  width: 343px;
+  background: url('../assets/card_price_u268.png');
+
+
+p {
+      font-size: 14px;
+      color: #FFFFFF;
+      opacity: 50%;
+      text-align: center;
+      margin: auto;
+}
+}
+
+.green {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 343px;
+  background: #41D395;
+
+p {
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: auto;
+}
+
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 343px;
+  background: url('../assets/pricing_feature_u13.png');
+
+
+  p {
+    font-size: 14px;
+    color: #86878B;
+    margin: auto;
+    text-align: center;
+  }
+}
+}
+
+}
+}

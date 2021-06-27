@@ -1,0 +1,40 @@
+#mediaBar {
+  width: 100%;
+  height: 105px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+.media {
+  display: flex;
+  flex-direction: column;
+
+  .social-media {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  .social-text{
+    width: 394px;
+    height: 38px;
+    font-size: 14px;
+    color: #86878B;
+    opacity: 1;
+  }
+}
+
+.icons {
+  font-size: 30px;
+
+i {
+  margin: 50px;
+  color: #E27866;
+}
+.fas {
+  transform: rotate(45deg);
+}
+}
+
+}
